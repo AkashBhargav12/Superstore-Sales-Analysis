@@ -1,7 +1,7 @@
 # SuperStore Sales Analysis
 
 
-![Superstore Sales analysis](Assets/Images/sprout-social-social-youtube-monetization.svg)
+![Superstore Sales analysis](Assests/Images/Banner Image.png)
 
 
 
