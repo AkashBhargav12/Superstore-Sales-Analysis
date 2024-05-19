@@ -91,7 +91,7 @@ Some of the data visuals that may be appropriate in answering our questions incl
 4. Pie Chart 
 
 
-![Dashboard-Mockup](Assets/Images/Mockup.png)
+![Dashboard-Mockup](Assests/Images/Mockup.png)
 
 ## Tools Used
 
