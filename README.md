@@ -8,7 +8,6 @@
 
 # Table of Contents
 
-- Table of Contents
 - [Objective](#objective)
 - [Data Source](#data-source)
 - [Stages](#stages)
