@@ -43,7 +43,7 @@ The primary objective of this analysis is to derive insights from the Superstore
 
 ## User Story
 
-As the Regional Manager, I want to identify the bestselling products and the recent trends, so that I can decide on which products would be best to run marketing campaigns on to generate a good ROI. 
+As the General Manager, I want to identify the bestselling products and the recent trends, so that I can decide on which products would be best to run marketing campaigns on to generate a good ROI. 
 
 
 # Data Source
@@ -84,8 +84,6 @@ What should the dashboard contain based on the requirements provided?
 
 The design phase includes creating mockups to visualize the expected output of the dashboards and reports. Mockups help in understanding the layout and design elements that will be used in the final visualizations.
 
-![Dashboard-Mockup](Assests/Images/Mockup.png)
-
 Some of the data visuals that may be appropriate in answering our questions include:
 
 1. Line Chart
@@ -123,12 +121,47 @@ How can we approach the problem to create a solution from start to finish?
 
 This is the stage where we scan the data for errors, inconcsistencies, bugs, weird and corrupted characters etc. 
 
+The data exploration stage involves understanding the structure of the raw data. The key findings from each sheet in the SuperStoreUS-2015.xlsx file are summarized below:
+
+1. Orders Sheet: Contains detailed order information including sales, profit, product categories, and customer details.
+2. Returns Sheet: Lists the orders that were returned.
+3. Users Sheet: Provides information on regional managers.
 
 - What are the initial observations with this dataset? What's caught our attention so far?
 
+1. The dataset includes detailed order information with relevant dates, sales and profit figures. The initial exploration reveales that the quality of the data is high and we have everything we need to perform the analysis.
+2. The Returns and Users sheets contains data that can be linked to orders through 'Order ID' and 'Region'.
+3. There are some blanks and irregular data that needs to be cleaned before conducting the analysis. 
+4. There is a need to calculate the dintinct number of orders and returns.
 
 
+## Data cleaning 
+- What do we expect the clean data to look like? What should it contain? What contraints should we apply to it?
 
+The aim is to refine the dataset to ensure it is structured and ready for analysis. 
+
+The cleaned data should meet the following criteria and constraints:
+
+1. Removing any duplicate entries in the orders IDs
+2. Handling any missing values in critical columns like sales and profit
+
+Below is a table outlining the our cleaned dataset:
+
+| Property | Description |
+| --- | --- |
+| Orders |           |
+| Number of Rows | 1953 |
+| Number of Columns | 25 |
+| --- | --- |
+| Returns |           |
+| Number of Rows | 1635 |
+| Number of Columns | 2 |
+| --- | --- |
+| Users |           |
+| Number of Rows | 5 |
+| Number of Columns | 2 |
+
+### Transform the data
 
 
 
