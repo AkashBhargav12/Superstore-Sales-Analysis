@@ -127,7 +127,38 @@ The data exploration stage involves understanding the structure of the raw data.
 2. Returns Sheet: Lists the orders that were returned.
 3. Users Sheet: Provides information on regional managers.
 
-- What are the initial observations with this dataset? What's caught our attention so far?
+Additionally the sheets contain the following columsn;
+
+- Row ID
+- Order Priority
+- Discount
+- Unit Price
+- Shipping Cost
+- Customer ID
+- Customer Name
+- Ship Mode
+- Customer Segment
+- Product Category
+- Product Sub-Category
+- Product Container
+- Product Name
+- Product Base Margin
+- Country
+- Region
+- State or Province
+- City
+- Postal Code
+- Order Date
+- Ship Date
+- Profit
+- Quantity ordered new
+- Sales
+- Order ID
+- Return Status
+- Region
+- Manager
+
+What are the initial observations with this dataset? What's caught our attention so far?
 
 1. The dataset includes detailed order information with relevant dates, sales and profit figures. The initial exploration reveales that the quality of the data is high and we have everything we need to perform the analysis.
 2. The Returns and Users sheets contains data that can be linked to orders through 'Order ID' and 'Region'.
@@ -149,19 +180,70 @@ Below is a table outlining the our cleaned dataset:
 
 | Property | Description |
 | --- | --- |
-| Orders |           |
+| --- | --- |
+| **Orders** |           |
 | Number of Rows | 1953 |
 | Number of Columns | 25 |
 | --- | --- |
-| Returns |           |
+| --- | --- |
+| **Returns** |           |
 | Number of Rows | 1635 |
 | Number of Columns | 2 |
 | --- | --- |
-| Users |           |
+| --- | --- |
+| **Users** |           |
 | Number of Rows | 5 |
 | Number of Columns | 2 |
 
 ### Transform the data
+
+Before we can begin analysing the data it is necessary to transform the data with a few addtional columns to make it more coherent and usable.
+
+The below additional columns have been created using the formulae shown :
+
+Distinct Customer Count
+```sql
+=IF(COUNTIF(G$2:G2,G2)=1,"New Customer","Returning Customer")
+```
+
+Customer Count Distinct
+```sql
+=IF(H2="New Customer",1,0)
+```
+
+Order Day
+```sql
+=TEXT(W2,"ddd")
+```
+
+Delivery Days
+```sql
+=Y2-W2
+```
+
+Is Discount
+```sql
+=IF(C2=0,"No Discount","After Discount")
+```
+
+Distinct Order Count
+```sql
+=IF(COUNTIF(AE$2:AE1953,AE2)=1,1,0)
+```
+
+Distinct Return Status
+```sql
+=IF(AG2="Not Returned",0,1)
+```
+
+Further to the above additonal columns, a few other columns have been added from other sheets using the **XLOOKUP** formula to amalgamate all the data on a single sheet to ease the analysis process.
+
+- For Example
+Return Status
+```sql
+=XLOOKUP(AE2,Returns!A:A,Returns!B:B,"Not Returned",0,1)
+```
+
 
 
 
