@@ -178,22 +178,17 @@ The cleaned data should meet the following criteria and constraints:
 
 Below is a table outlining the our cleaned dataset:
 
-| Property | Description |
+| Sheet | Number of Rows | Number of Columns |
+| --- | --- | --- |
+| --- | --- |
+| **Orders** | 1952 | 25
 | --- | --- |
 | --- | --- |
-| **Orders** |           |
-| Number of Rows | 1953 |
-| Number of Columns | 25 |
+| **Returns** | 1635 | 2 |
 | --- | --- |
 | --- | --- |
-| **Returns** |           |
-| Number of Rows | 1635 |
-| Number of Columns | 2 |
-| --- | --- |
-| --- | --- |
-| **Users** |           |
-| Number of Rows | 5 |
-| Number of Columns | 2 |
+| **Users** | 5 | 2 |
+
 
 ### Transform the data
 
@@ -243,6 +238,64 @@ Return Status
 ```sql
 =XLOOKUP(AE2,Returns!A:A,Returns!B:B,"Not Returned",0,1)
 ```
+
+
+# Testing
+
+To ensure the accuracy and reliability of the data, several tests were conducted:
+
+- Row Count Check: Verify the number of records.
+- Column Count Check: Ensure all necessary columns are present.
+- Data Type Check: Confirm appropriate data types for each column.
+- Duplicate Check: Ensure all records are unique.
+
+#### Row Count Check
+
+Checked all rows in column A to ensure the count matches the expected number of records (1952)
+Formula Used
+```sql
+=COUNTA(A:A)
+```
+
+#### Column Count Check
+
+Checked all columns in row 1 to ensure all 25 columns and the additional added 9 columns are present 
+Formula Used
+```sql
+=COUNTA(1:1)
+```
+#### Duplicate Check
+
+- Applied Conditonal Formatting to highlight duplicate values to columns that uniquely identify records, such as Order ID (column AE).
+- Verified that there were no duplicate entries.
+
+#### Missing Values Check:
+
+Checked 'Sales', 'Profit' and 'Order Date' columns for any missing values and ensured that these critical fields were filled.
+Formula Used
+```sql
+=ISBLANK(U2)
+```
+
+
+# Visualisation
+
+- What does the dashboard look like?
+
+### Customer and Order Analysis
+
+![Customer and Order Analysis](Assests/Images/Customer and order dashboard_Page_1.png)
+
+
+### Sales Analysis
+
+![Sales Analysis](Assests/Images/Sales Dashboard_Page_1.png)
+
+
+### Product Analysis
+
+![Product Analysis](Assests/Images/Product Dashboard_Page_1.png)
+
 
 
 
