@@ -335,25 +335,19 @@ Here are the key findings that answer our questions,
 | Furniture |	$ 573.14K |
 | Office Supplies |	$ 482.37K |
 
+### 3. Sales Trend 
 
+![Sales Trend](Assests/Images/Sales Trend.png)
 
+### 4. Regional Sales 
 
+![Regional Sales](Assests/Images/Regional Sales.png)
 
+### 5. Average Profit Margin
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| Year | Avg Profit Margin (in %) |
+|---| --- |
+| 2015 | 14% |
 
 
 # Visualisation
@@ -374,6 +368,8 @@ Here are the key findings that answer our questions,
 
 ![Product Analysis](Assests/Images/Product Dashboard_Page_1.png)
 
+
+# Recommendations
 
 
 
