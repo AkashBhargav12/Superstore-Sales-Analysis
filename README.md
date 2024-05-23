@@ -27,9 +27,8 @@
   - [Validation](#validation)
   - [Discovery](#discovery)
 - [Recommendations](#recommendations)
-  - [Potential ROI](#potential-roi)
-  - [Potential Courses of Actions](#potential-courses-of-actions)
-- [Conclusion](#conclusion)
+  - [Action Plan](#Action_plan)
+  - [KPIs to Monitor](#KPIs_to_monitor)
 
 
 # Objective
