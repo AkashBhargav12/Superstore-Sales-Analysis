@@ -20,10 +20,10 @@
   - [Transform the Data](#transform-the-data)
 - [Testing](#testing)
 - [Analysis](#analysis)
-- [Visualization](#visualization)
+- [Visualisation](#visualisation)
 - [Recommendations](#recommendations)
-  - [Action Plan](#Action_plan)
-  - [KPIs to Monitor](#KPIs_to_monitor)
+  - [Action Plans](#Action_plans)
+  - [Key Performance Indicators (KPIs) to Monitor](#Key_Performance_Indicators_(KPIs)_to_Monitor)
 
 
 
@@ -373,7 +373,7 @@ Here are the key findings that answer our questions,
 4. The average profit margin calculated from the data is approximately 10.2%. The pricing startegies and operational efficiency can be further improved to generate more profits.
 
 
-## Action PLan
+## Action Plans
 
 ### Product Category Focus
 
