@@ -372,7 +372,6 @@ Here are the key findings that answer our questions,
 3. The region with the highest sales is the **East** with $ 526.14K in sales. This region should receive focused marketing and resource allocation to further capitalize on its high performance. Conversely, the "South" region with sales of $ 284.04K indicates potential underperformance. Strategies such as localized promotions or identifying regional preferences could help boost sales.
 4. The average profit margin calculated from the data is approximately 10.2%. The pricing startegies and operational efficiency can be further improved to generate more profits.
 
-
 ## Action Plans
 
 ### Product Category Focus
@@ -430,7 +429,6 @@ Here are the key findings that answer our questions,
     - Timeline: Short-term (within 2 months)
     - Responsibility: Pricing Analyst
     - Action: Conduct a thorough analysis of current pricing strategies. Adjust prices to ensure they cover costs and reflect market demand while aiming to improve profit margins.
-
 
 ## Key Performance Indicators (KPIs) to Monitor
 
