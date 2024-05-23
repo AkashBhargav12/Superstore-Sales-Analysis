@@ -377,17 +377,17 @@ Here are the key findings that answer our questions,
 
 ### Product Category Focus
 
-- Enhance Inventory for Technology Products:
+- **Enhance Inventory for Technology Products**:
     - Timeline: Immediate (within 1 month)
     - Responsibility: Inventory Manager
     - Action: Increase stock levels for top-selling technology products to avoid stockouts and meet high demand.
 
-- Focus Marketing Efforts:
+- **Focus Marketing Efforts**:
     - Timeline: Short-term (within 2 months)
     - Responsibility: Marketing Team
     - Action: Develop targeted marketing campaigns for technology products, highlighting their features and benefits.
 
-- Explore Bundling Options:
+- **Explore Bundling Options**:
     - Timeline: Medium-term (within 3 months)
     - Responsibility: Product Manager
     - Action: Create product bundles that include top-selling technology items with complementary furniture or office supplies to boost sales.
@@ -395,12 +395,12 @@ Here are the key findings that answer our questions,
 
 ### Sales Trend Optimisation
 
-- Seasonal Promotions for Peak Months
+- **Seasonal Promotions for Peak Months**
     - Timeline: Immediate (plan within 1 month, execute during peak season)
     - Responsibility: Marketing Team
     - Action: Develop special promotions and discounts for the peak sales month of December to maximize revenue.
 
-- Loyalty Programs for Off-Peak Months
+- **Loyalty Programs for Off-Peak Months**
     - Timeline: Medium-term (within 3 months)
     - Responsibility: Customer Relations Team
     - Action: Implement loyalty programs and offer discounts during off-peak months (e.g., January, February) to stabilize sales.
@@ -408,12 +408,12 @@ Here are the key findings that answer our questions,
  
 ### Regional Sales Strategies
 
-- Boost High-Performing Regions (West):
+- **Boost High-Performing Regions (West)**:
     - Timeline: Short-term (within 2 months)
     - Responsibility: Regional Sales Manager
     - Action: Allocate additional marketing resources and tailor campaigns specifically for the West region to further increase sales.
 
-- Improve Low-Performing Regions (South):
+- **Improve Low-Performing Regions (South)**:
     - Timeline: Medium-term (within 4 months)
     - Responsibility: Regional Sales Manager
     - Action: Conduct market research to understand customer preferences in the South region and develop localized promotions. Improve supply chain efficiencies to reduce costs and improve product availability.
@@ -421,12 +421,12 @@ Here are the key findings that answer our questions,
 
 ### Profit Margin Improvement
 
-- Cost Reduction Initiatives:
+- **Cost Reduction Initiatives**:
     - Timeline: Immediate and ongoing (start within 1 month)
     - Responsibility: Operations Manager
     - Action: Review and renegotiate supplier contracts to reduce procurement costs. Optimize logistics to minimize shipping costs and improve delivery times.
 
-- Re-evaluate Pricing Strategy:
+- **Re-evaluate Pricing Strategy**:
     - Timeline: Short-term (within 2 months)
     - Responsibility: Pricing Analyst
     - Action: Conduct a thorough analysis of current pricing strategies. Adjust prices to ensure they cover costs and reflect market demand while aiming to improve profit margins.
