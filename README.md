@@ -22,7 +22,7 @@
 - [Analysis](#analysis)
 - [Visualisation](#visualisation)
 - [Recommendations](#recommendations)
-  - [Action Plans](#Action_plans)
+  - [Action Plans](#Action_Plans)
   - [Key Performance Indicators (KPIs) to Monitor](#Key_Performance_Indicators_(KPIs)_to_Monitor)
 
 
