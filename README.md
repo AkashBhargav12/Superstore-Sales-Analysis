@@ -19,13 +19,8 @@
   - [Data Cleaning](#data-cleaning)
   - [Transform the Data](#transform-the-data)
 - [Testing](#testing)
-  - [Data Quality Tests](#data-quality-tests)
-- [Visualization](#visualization)
-  - [Results](#results)
 - [Analysis](#analysis)
-  - [Findings](#findings)
-  - [Validation](#validation)
-  - [Discovery](#discovery)
+- [Visualization](#visualization)
 - [Recommendations](#recommendations)
   - [Action Plan](#Action_plan)
   - [KPIs to Monitor](#KPIs_to_monitor)
@@ -118,7 +113,7 @@ How can we approach the problem to create a solution from start to finish?
   10. Publish the insights generated
 
 
-## Data exploration notes
+### Data exploration notes
 
 This is the stage where we scan the data for errors, inconcsistencies, bugs, weird and corrupted characters etc. 
 
@@ -191,7 +186,7 @@ Below is a table outlining the our cleaned dataset:
 | **Users** | 5 | 2 |
 
 
-### Transform the data
+## Transform the data
 
 Before we can begin analysing the data it is necessary to transform the data with a few addtional columns to make it more coherent and usable.
 
